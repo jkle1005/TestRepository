@@ -36,6 +36,11 @@ public class Field : MonoBehaviour
 
     private ObjectBase[] objects;
 
+    public void hubTestFunc()
+    {
+        Debug.Log("hub update test");
+    }
+
     public ObjectBase GetObject(Vector3Int _pos)
     {
         foreach(ObjectBase obj in objects)
